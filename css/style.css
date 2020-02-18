@@ -105,7 +105,7 @@ background-clip: padding;
 
 #jumbotron {
     /* margin-top: 10px; */
-    background-image: url('../images/night_sky_car.png');
+    background-image: url('images/night_sky_car.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: ;
@@ -198,7 +198,7 @@ h2 {
 }
 
 #filler-1 {
-    background-image: url("../images/desert_filler.png");
+    background-image: url("images/desert_filler.png");
     
     display: flex;
 }
@@ -215,7 +215,7 @@ h2 {
 }
 
 #filler-2 {
-    background-image: url("../images/watery_filler.jpg");
+    background-image: url("images/watery_filler.jpg");
     display: flex;
 }
 
@@ -225,7 +225,7 @@ h2 {
 }
 
 #filler-3 {
-    background-image: url("../images/rock_filler.jpg");
+    background-image: url("images/rock_filler.jpg");
     display: flex;
 }
 
