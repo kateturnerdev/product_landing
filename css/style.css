@@ -1,0 +1,294 @@
+:root {
+    --wr-teal: #205959;
+    --wr-gray: #F2DCD8;
+    --wr-light-teal: #517979;
+    --wr-blue: #719297;
+    --wr-blackish: #262626;
+
+}
+
+
+
+body {
+    /* background: var(--wr-gray); */
+    font-family: 'Montserrat', sans-serif;
+    
+
+} 
+head {
+    border-radius: 5px;
+}
+#navbar {
+background: var(--wr-teal);
+padding: 5px;
+display: flex;
+justify-content: space-evenly;
+border-radius: 5px 5px 0 0;
+}
+
+
+
+.brand-wrapper {
+    display: flex;
+    justify-self: flex-start;
+}
+/* .brand-wrapper:hover {
+
+} */
+
+a:hover {
+    border-radius: 20px 5px 20px 5px;
+    background-clip: padding;
+    background-color: var(--wr-gray);
+    color: var(--wr-blackish)
+}
+
+p {
+    color: var(--wr-blackish)
+}
+.logo {
+    text-decoration: none;
+    color: var(--wr-gray);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    padding-top: 20px;
+   align-self: center;
+
+}
+
+#menu 
+{justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+.nav-item {
+    list-style: none;
+    padding: 10px;
+   
+}
+
+/* nav-item:hover {
+    
+    
+} */
+
+.nav-link {
+    text-decoration: none;
+    color: var(--wr-gray);
+    font-family: 'Montserrat' sans-serif;
+    padding: 10px;
+}
+
+#join-link {
+background-color: var(--wr-gray);
+color: var(--wr-blackish);
+border-radius: 5px 20px 5px;
+}
+
+.nav-link:hover {
+color: var(--wr-blackish);
+background-color: var(--wr-gray);
+border-radius: 5px 20px 5px;
+background-clip: padding;
+}
+#join-link:hover {
+color: var(--wr-gray);
+background-color: var(--wr-blackish);
+border-radius: 5px 20px 5px;
+background-clip: padding;
+}
+
+#jumbotron {
+    /* margin-top: 10px; */
+    background-image: url('../images/night_sky_car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    height: 200px;
+    padding-left: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+}
+
+#brand {
+    display: flex;
+    align-items: baseline;
+
+}
+#brand-name {
+    font-family: 'Raleway', sans-serif;
+    color: var(--wr-gray);
+    font-size: 70px;
+    font-style: bold;
+    
+
+
+}
+#tagline {
+color: var(--wr-gray);
+font-style: italic;
+font-size: 20px;
+
+}
+
+#boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+    
+   
+}
+
+
+.call-to {
+    text-decoration: none;
+    background-color: var(--wr-gray);
+    color: var(--wr-blackish);
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.call-to:hover {
+    border-radius: 5px 20px 5px;
+   
+    background-clip: padding;
+    background-color: var(--wr-blackish);
+    color: var(--wr-gray);
+}
+    
+
+
+#main-info {
+    color: var(--wr-);
+    font-size: 30px;
+
+}
+
+section {
+    border-radius: 5px; 
+
+    
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+}                       
+#about {
+    color: var(--wr-blue);
+    
+}
+
+.section-title {
+    color: var(--wr-gray);
+    text-shadow: 1px 2px 1px #000;
+    font-size: 50px;
+    padding: 25px;
+    font-weight: bolder;
+    align-self: flex-end;
+
+
+}
+
+#filler-1 {
+    background-image: url("../images/desert_filler.png");
+    
+    display: flex;
+}
+
+#why-wildr {
+    color: var(--wr-blue)
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#why {
+    text-shadow: none ;
+}
+
+#filler-2 {
+    background-image: url("../images/watery_filler.jpg");
+    display: flex;
+}
+
+#faq {
+    color: var(--wr-blue);
+    padding: 10px;
+}
+
+#filler-3 {
+    background-image: url("../images/rock_filler.jpg");
+    display: flex;
+}
+
+#join {              
+    color: var(--wr-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    flex-basis: 45%;
+    padding: 10px;
+
+}
+
+
+form {
+    background-color: var(--wr-gray);
+    padding: 15px;
+    font-weight: bold;
+    flex-grow: 1.5;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+  
+}
+.name-box { 
+    padding: 3px;
+    margin: 2px;
+}
+
+#email {
+        padding: 3px;
+        margin: 2px;
+    }
+#submit {
+        padding: 3px;
+        margin-bottom: 3px;
+        background-color: var(--wr-teal);
+        color: #fff;
+        border: var(--wr-blackish);
+    }
+
+    #sunset {
+        height: 300px;
+        padding: 20px;
+         
+      }
+
+      /* #image-wrap {
+        border-radius: 5px;
+      } */
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background: var(--wr-teal);
+    color: var(--wr-gray);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#company-info {
+padding: 10px;
+color: var(--wr-gray);
+}
